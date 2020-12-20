@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custombackground"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    tools:context=".NoteActivity">
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/bookinfotool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@id/bookinfotool"
+        android:text="eslam younis elsayed"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:background="@null"
+        android:inputType="textCapSentences|textMultiLine"
+        android:textColor="#fff"
+        android:id="@+id/noteactivityEditText"
+        />
+
+
+
+
+</RelativeLayout>

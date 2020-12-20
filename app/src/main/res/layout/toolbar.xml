@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/noconnapptoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/deleteicon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/delete" />
+
+
+        <ImageView
+            android:id="@+id/backicon"
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:src="@drawable/backicontwo" />
+
+        <ImageView
+            android:id="@+id/shareicon"
+            android:layout_width="20dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="15dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_gravity="right"
+            android:src="@drawable/shareicon" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</RelativeLayout>

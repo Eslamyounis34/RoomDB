@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/custombackground"
+    android:layout_height="match_parent"
+    tools:context=".AddNoteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter your note here"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@null"
+            android:id="@+id/notedataet"
+            android:layout_margin="50dp"
+            />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/savebtnicon"
+        android:backgroundTint="#9E9E9E"
+        android:id="@+id/savebtn"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_margin="10dp"
+        />
+
+
+
+</RelativeLayout>
